@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kelly Criterion Calculator</title>
+  <link rel="stylesheet" type = "text/css" href="style.css"
+</head>
+
+<body>
+<h3>Kelly Criterion Calculator</h3>
+
+<p>Fill out the form completely and submit</p>
+
+<form>
+Enter bankroll: <input type="text" placeholder = "1000" name="kelly_fraction"/>
+Enter Kelly fraction (%): <input type ="text" placeholder = "15"/>
+Odds of Side 1 win outcome (decimal): <input type="text" placeholder = "1.91">
+Odds of Side 2 win outcome (decimal): <input type="text" placeholder = "1.91">
+Handicapped probability of Side 1 win outcome (%): <input type="text" placeholder = "58">
+Handicapped probability of Side 2 win outcome (%): <input type="text" placeholder = "58">
+
+
+<input type ="submit" value="Submit" name="submit"/>
+
+</form>
+
+</body>
+
+
+</head>
+</html>
