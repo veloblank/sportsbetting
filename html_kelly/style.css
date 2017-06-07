@@ -1,0 +1,25 @@
+body {
+  background-color: #f4f142
+}
+
+h3 {
+  text-align: center;
+  font-size: 50px;
+}
+
+form {
+  margin: 20px auto;
+  width: 320px;
+}
+
+input {
+  padding: 10px
+  font-size: inherit
+}
+
+input [type="text"] {
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid black
+}
